@@ -1,4 +1,4 @@
-# Customizable NFT Drop Minting Page
+# Shopify Discount Codes for NFT Holders
 
 This template allows you to generate discount codes for your Shopify store to holders of your NFT Collection using [Auth](https://portal.thirdweb.com/auth).
 
