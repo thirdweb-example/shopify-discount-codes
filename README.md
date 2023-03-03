@@ -9,7 +9,7 @@ To create your own version of this template, you can use the following steps:
 Run this command from the terminal to clone this project and install the required dependencies:
 
 ```bash
-npx thirdweb create --template shopify-nft-holder-discount
+npx thirdweb create --template shopify-discount-codes
 ```
 
 Create a copy of the `.env.example` file and rename it to `.env`. Then, fill in the values for the following environment variables:
