@@ -31,13 +31,13 @@ This section explores the core elements of the code.
 First, we setup thirdweb Auth by configuring our `ThirdwebProvider` in the `_app.tsx` file:
 
 ```tsx
-// This is the chainId your dApp will work on.
-const activeChainId = ChainId.Polygon;
+// This is the chain your dApp will work on.
+const activeChain = "polygon";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider
-      desiredChainId={activeChainId}
+      activeChain={activeChain}
       authConfig={{
         authUrl: "/api/auth",
         domain: "example.com",
